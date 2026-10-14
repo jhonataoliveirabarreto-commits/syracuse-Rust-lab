@@ -42,7 +42,7 @@ Como o Rust utiliza o **Cargo** como gerenciador de pacotes e build system, para
 
 ```bash
 # Compilar e rodar o projeto
-cargo run
+cargo run --bin nome_do_exercicio
 
 # Apenas checar se o código compila (mais rápido que o build completo)
 cargo check
