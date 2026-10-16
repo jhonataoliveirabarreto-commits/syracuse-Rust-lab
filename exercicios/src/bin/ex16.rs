@@ -11,7 +11,7 @@ Exiba todos os resultados e o bit de sinal, expoente e mantissa do -42.625_f32.
 fn main() {
     let ab = 0.1_f64 + 0.2_f64 == 0.3_f64;
     println!("{0}", ab);
-    let diff = 0.1 + 0.2;
+    let diff = ((0.1_64 + 0.2_64) - 0.3_f64).abs();
     let res = (0.0_f32 / 0.0f32) == f32::NAN;
     let binary_brut = (-42.625_f32).to_bits();
 
