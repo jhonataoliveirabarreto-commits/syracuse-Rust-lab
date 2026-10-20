@@ -7,7 +7,7 @@ utilizadas (unused variable warnings). Além disso, crie uma variável que armaz
 */
 fn main() {
     let satelite: (i32, i32, i32, f64, bool) = (22, 33, 44, 72.5, true);
-    let (x, _, _, z, _) = satelite;
+    let (_x, _, _, _z, _) = satelite;
     let vazio: () = ();
 
     println!("{:?}", vazio);
